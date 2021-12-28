@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.wrap>div{
+    height: 500px;
+    text-align: center;
+}
+.menu{
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+.menu li{
+    width: 200px;
+    float: left;
+    line-height: 50px;
+    position: relative;
+    background-color: aqua;
+}
+.sub li{
+    height: 0;
+    /* position: relative; */
+    transition: .5s;
+    overflow: hidden;
+    background-color: aqua;
+}
+.menu>li:hover{
+    background-color: aquamarine;
+}
+.sub li:hover{
+    background-color: #ccc;
+}
+
+.bg_drop:hover .sub li{
+    height: 50px;
+}
