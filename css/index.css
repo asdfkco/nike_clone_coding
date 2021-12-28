@@ -4,36 +4,68 @@
     text-decoration: none;
     list-style: none;
 }
+header .logo{
+    width: 60px;
+    position: absolute;
+    padding: 10px;
+    z-index: 999;
+}
+header{
+    position: fixed;
+    height: 60px;
+    width: 100%;
+}
+.wrap{
+    padding: 0 20px 0 20px;
+}
 .wrap>div{
-    height: 500px;
+    /* height: 500px; */
     text-align: center;
+    position: relative;
 }
 .menu{
     display: inline-block;
     position: relative;
-    z-index: 1;
 }
 .menu li{
-    width: 200px;
+    width: 100px;
     float: left;
-    line-height: 50px;
     position: relative;
-    background-color: aqua;
+    line-height: 50px;
+    background-color: white;
+}
+.menu>li{
+       padding: 0 12px 0 12px;
+}
+.bg_div{
+    width: 1900px;
 }
 .sub li{
-    height: 0;
-    /* position: relative; */
+    height: 0px;
     transition: .5s;
     overflow: hidden;
-    background-color: aqua;
+    background-color: white;
+    /* width: 200px; */
 }
+/*헤더 여려개 나오게 해놓기*/
+/* 검색 하트 장바구니 해놓기 */
 .menu>li:hover{
     background-color: aquamarine;
 }
 .sub li:hover{
     background-color: #ccc;
 }
-
-.bg_drop:hover .sub li{
+.drop>li:hover .sub li{
     height: 50px;
+    float: none;
+    text-align: center;
+    width: 200px;
+    left: -50%;
+}
+.bg{
+    width: 100%;
+}
+.search{
+    position: absolute;
+    display: none;
 }
