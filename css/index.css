@@ -1,71 +1,56 @@
-*{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
-}
-header .logo{
-    width: 60px;
-    position: absolute;
-    padding: 10px;
-    z-index: 999;
+*{margin: 0;padding: 0;list-style: none;}
+a{text-decoration: none; color: inherit;}
+img{vertical-align: middle;}
+body{
+    background-color: #ccc;
 }
 header{
     position: fixed;
     height: 60px;
     width: 100%;
-}
-.wrap{
-    padding: 0 20px 0 20px;
-}
-.wrap>div{
-    /* height: 500px; */
-    text-align: center;
-    position: relative;
-}
-.menu{
-    display: inline-block;
-    position: relative;
-}
-.menu li{
-    width: 100px;
-    float: left;
-    position: relative;
-    line-height: 50px;
     background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    height: 60px;
+    /* position: absolute; */
+    z-index: 999;
+    left: 20px;
+    top: 11px;
+}
+.sub-menu{
+    position:absolute;
+    width: 100%;
+    padding: 30px 0;
+    left: 0%;
+    top: 100%;
+    transition: .1s;
+    transform: scaleY(0);
+    transform-origin: top;
+    background-color:white;
+}
+.menu>li:hover>.sub-menu{
+    transform: scaleY(1);
+}
+.menu>li>a{
+    height: 100%;
+    padding: 0 32px;
 }
 .menu>li{
-       padding: 0 12px 0 12px;
+    height: 100%;
 }
-.bg_div{
-    width: 1900px;
-}
-.sub li{
-    height: 0px;
-    transition: .5s;
-    overflow: hidden;
-    background-color: white;
-    /* width: 200px; */
+.menu{
+    height: 100%;
+    display: flex;
 }
 /*헤더 여려개 나오게 해놓기*/
 /* 검색 하트 장바구니 해놓기 */
-.menu>li:hover{
-    background-color: aquamarine;
-}
-.sub li:hover{
-    background-color: #ccc;
-}
-.drop>li:hover .sub li{
-    height: 50px;
-    float: none;
-    text-align: center;
-    width: 200px;
-    left: -50%;
-}
-.bg{
-    width: 100%;
-}
 .search{
-    position: absolute;
-    display: none;
+    /* position: absolute; */
+    right: 120px;
+    top: 20px;
+    border-radius:5px;
+    border: none;
 }
