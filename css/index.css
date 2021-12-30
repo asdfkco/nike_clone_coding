@@ -15,12 +15,12 @@ header{
     z-index: 2;
 }
 .logo img{
-    height: 60px;
+    /* height: 60px; */
     /* position: absolute; */
     z-index: 999;
-    left: 20px;
-    top: 11px;
-}
+    width: 70px;
+    padding: 13px 42px;
+} 
 .sub-menu{
     position:absolute;
     width: 100%;
@@ -39,7 +39,7 @@ header{
     border-bottom: 2px solid black;
 }
 .menu>li>a{
-    top: 20px;
+    top: 17px;
     position: relative;
     height: 100%;
     padding: 17px 33px;
@@ -56,10 +56,65 @@ header{
     padding: 0 30px;
     text-align: left;
 }
-.search{
-    /* position: absolute; */
-    right: 120px;
-    top: 20px;
-    border-radius:5px;
+.search_div>img{
+    position: absolute;
+    width: 40px;
+}
+.gather input:hover{
+    background-color: #ccc;
+}
+.gather input{
+    position: absolute;
+    right: 165px;
+    top: 10px;
+    border-radius:67px;
     border: none;
+    width: 180px;
+    height: 40px;
+    font-weight: 300;
+    font-size: 16px;
+    background-color: rgb(244, 244, 244);
+}
+.gather>.search>a{
+    border-radius: 30px;
+}
+.gather>.search>a:hover{
+    background-color: #ccc;
+}
+.gather .search_icon{
+    position: absolute;
+    right: 300px;
+    top: 10px;
+    z-index: 99;
+}
+.big-menu{
+    padding: 10px 0 ;
+}
+.small-menu{
+    padding: 2px;
+}
+.gather img{
+    width: 25px;
+    padding: 7px 9px;
+}
+.gather>.icon_sell>a>img{
+    width: 22px;
+}
+.gather>.icon_sell{
+    position: relative;
+    right: 60px;
+}
+.gather>.icon_sell>a{
+    border-radius: 70px;
+    padding: 9px 0;
+}
+.gather>a>.icon_img{
+    padding: 0;
+}
+.gather>.icon_sell>a:hover{
+    background-color: #ccc;
+}
+footer{
+    width: 100%;
+    height: 100px;
 }
