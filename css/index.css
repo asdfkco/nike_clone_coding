@@ -12,6 +12,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 2;
 }
 .logo img{
     height: 60px;
@@ -34,9 +35,14 @@ header{
 .menu>li:hover>.sub-menu{
     transform: scaleY(1);
 }
+.menu>li>a:hover{
+    border-bottom: 2px solid black;
+}
 .menu>li>a{
+    top: 20px;
+    position: relative;
     height: 100%;
-    padding: 0 32px;
+    padding: 17px 33px;
 }
 .menu>li{
     height: 100%;
@@ -45,8 +51,11 @@ header{
     height: 100%;
     display: flex;
 }
-/*헤더 여려개 나오게 해놓기*/
-/* 검색 하트 장바구니 해놓기 */
+.sub{
+    float: left;
+    padding: 0 30px;
+    text-align: left;
+}
 .search{
     /* position: absolute; */
     right: 120px;
