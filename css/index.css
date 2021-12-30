@@ -24,16 +24,26 @@ header{
 .sub-menu{
     position:absolute;
     width: 100%;
-    padding: 30px 0;
+    padding: 40px 0;
     left: 0%;
     top: 100%;
-    transition: .1s;
+    transition: .15s;
     transform: scaleY(0);
     transform-origin: top;
     background-color:white;
+    display: flex;
+    justify-content: center;
 }
+
 .menu>li:hover>.sub-menu{
     transform: scaleY(1);
+}
+.sub{
+    opacity: 0;
+}
+.menu>li:hover>.sub-menu>.sub{
+    opacity:1;
+    transition: 1s;
 }
 .menu>li>a:hover{
     border-bottom: 2px solid black;
@@ -42,7 +52,7 @@ header{
     top: 17px;
     position: relative;
     height: 100%;
-    padding: 17px 33px;
+    padding: 17px 8px;
 }
 .menu>li{
     height: 100%;
@@ -88,10 +98,13 @@ header{
     z-index: 99;
 }
 .big-menu{
-    padding: 10px 0 ;
+    padding: 12px 70px 12px 5px;
+    font-weight: 540;
+    font-size: 17px;
 }
 .small-menu{
-    padding: 2px;
+    padding: 5px;
+    font-size: 14px;
 }
 .gather img{
     width: 25px;
