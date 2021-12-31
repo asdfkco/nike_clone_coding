@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
 *{margin: 0;padding: 0;list-style: none;}
 a{text-decoration: none; color: inherit;}
 img{vertical-align: middle;}
 body{
     background-color: #ccc;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 header{
     position: fixed;
@@ -49,10 +51,12 @@ header{
     border-bottom: 2px solid black;
 }
 .menu>li>a{
-    top: 17px;
+    top: 20px;
+    font-size: 16.8px;
     position: relative;
     height: 100%;
-    padding: 17px 8px;
+    padding: 17px 13px;
+    font-weight: 100;
 }
 .menu>li{
     height: 100%;
@@ -98,24 +102,29 @@ header{
     z-index: 99;
 }
 .big-menu{
-    padding: 12px 70px 12px 5px;
+    padding: 13px 50px 13px 5px;
     font-weight: 540;
     font-size: 17px;
 }
 .small-menu{
     padding: 5px;
     font-size: 14px;
+    font-weight: 400px;
+    color: rgb(110, 110, 110);
+}
+.gather{
+    width: 165px;
 }
 .gather img{
-    width: 25px;
-    padding: 7px 9px;
+    width: 27px;
+    padding: 7px 7px;
 }
 .gather>.icon_sell>a>img{
-    width: 22px;
+    width: 23px;
 }
 .gather>.icon_sell{
     position: relative;
-    right: 60px;
+    right: -32px;
 }
 .gather>.icon_sell>a{
     border-radius: 70px;
