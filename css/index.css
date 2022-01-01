@@ -3,7 +3,6 @@
 a{text-decoration: none; color: inherit;}
 img{vertical-align: middle;}
 body{
-    background-color: #ccc;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 .brand{
@@ -192,5 +191,19 @@ header{
 }
 footer{
     width: 100%;
-    height: 100px;
+    height: 567px;
+    background-color: black;
+    color: white;
+}
+.service{
+    display: flex;
+    justify-content: space-between;
+}
+.language{
+    display: flex;
+    justify-content: space-between;
+}
+.locate{
+    display: flex;
+    justify-content: space-between;
 }
