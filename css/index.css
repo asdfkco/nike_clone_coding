@@ -14,49 +14,48 @@ header {
 section {
   width: 1410px;
 }
-.main_img1 {
-  padding: 0 54px;
-  width: 100%;
-}
-.div-first {
-  text-align: center;
-  padding: 35px 54px 160px 50px;
-  font-family: "Noto Sans KR", sans-serif;
-}
-.txt-select {
-  font-size: 42px;
-  font-weight: bold;
-}
-
-.txt-best {
-  font-size: 16px;
-  line-height: 35px;
-}
-.txt-styling {
-  padding: 0 60px 13px 60px;
-  font-size: 22px;
-  font-weight: 600;
-  font-family: "Noto Sans KR", sans-serif !important;
-}
+/* 비디오 */
 video {
   width: 1410px;
   padding: 0 54px;
 }
 
-.div-second {
+/* 사진 공통 사이즈*/
+.main_img {
+  padding: 0 54px;
+  width: 100%;
+}
+/*first*/
+.div-first {
   text-align: center;
-  padding: 25px 54px 160px 50px;
+  padding: 25px 54px 140px 50px;
   font-family: "Noto Sans KR", sans-serif;
 }
 .txt-winter {
   font-size: 42px;
   font-weight: bold;
 }
-
 .txt-winter-styling {
   font-size: 16px;
   line-height: 35px;
 }
+/*second*/
+.div-second {
+  text-align: center;
+  padding: 25px 54px 160px 50px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.txt-jordan23 {
+  font-size: 42px;
+  font-weight: bold;
+  line-height: 70px;
+}
+.txt-member {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+/*third*/
 .div-third {
   text-align: center;
   padding: 25px 54px 160px 50px;
@@ -65,13 +64,14 @@ video {
 .txt-air {
   font-size: 42px;
   font-weight: bold;
-  line-height: 70px;
 }
 
 .txt-iconic {
   font-size: 16px;
-  line-height: 25px;
+  line-height: 35px;
 }
+
+/*fourth*/
 .div-fourth {
   text-align: center;
   padding: 25px 54px 160px 50px;
@@ -88,34 +88,19 @@ video {
   line-height: 25px;
 }
 
-.div-fifth {
-  text-align: center;
-  padding: 25px 54px 160px 50px;
-  font-family: "Noto Sans KR", sans-serif;
-}
-.txt-holiday {
-  font-size: 42px;
-  font-weight: bold;
-  line-height: 70px;
-}
-
-.txt-pack {
-  font-size: 16px;
-  line-height: 25px;
-}
-
 .txt-trending {
-  padding: 0 60px 13px 60px;
+  padding: 0 60px 13px 53px;
   font-size: 22px;
   font-weight: 600;
   font-family: "Noto Sans KR", sans-serif !important;
 }
 .left-image {
-  width: 50%;
-  float: left;
-  padding: 25px 54px 160px 50px;
+  height: 700px;
+  width: 700px;
+  padding: 0 0px 13px 53px;
 }
-.rifht-image {
-  width: 50%;
-  float: right;
+.right-image {
+  height: 700px;
+  width: 700px;
+  padding: 0 0px 13px 10px;
 }
