@@ -94,6 +94,7 @@ video {
   font-weight: 600;
   font-family: "Noto Sans KR", sans-serif !important;
 }
+/* 두 개로 나눠지는 이미지 */
 .left-image {
   height: 700px;
   width: 700px;
@@ -103,4 +104,11 @@ video {
   height: 700px;
   width: 700px;
   padding: 0 0px 13px 10px;
+}
+
+.featured {
+  padding: 62px 60px 13px 53px;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Noto Sans KR", sans-serif !important;
 }
