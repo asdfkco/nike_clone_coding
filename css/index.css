@@ -107,8 +107,59 @@ video {
 }
 
 .featured {
-  padding: 62px 60px 13px 53px;
+  padding: 62px 60px 0px 53px;
   font-size: 22px;
   font-weight: 600;
   font-family: "Noto Sans KR", sans-serif !important;
+}
+
+/* 스크롤 테스트 */
+
+/* 기본 구조 */
+.wrap {
+  max-width: 1410px;
+  margin: 20px 10px 100px 50px;
+  background: white;
+}
+
+/* 가로 스크롤 적용 */
+.scroll__wrap {
+  overflow-y: hidden;
+  overflow-x: auto;
+  white-space: nowrap;
+  font-size: 0;
+}
+.scroll--element {
+  display: inline-block;
+  width: 1000px;
+  height: 150px;
+  padding: 0px 0px 200px 0px;
+}
+.scroll--element + .scroll--element {
+  margin-left: 15px;
+}
+::-webkit-scrollbar {
+  /* 스크롤바 전체 영역 */
+  width: 10px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  /* 스크롤이 움직이는 영역  */
+  background-color: white;
+}
+::-webkit-scrollbar-thumb {
+  /*  스크롤  */
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+}
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment {
+  /*  스크롤의 화살표가 포함된 영역   */
+  display: block;
+  height: 8px;
+  background-color: white;
+}
+
+.scroll-image {
+  width: 475px;
 }
