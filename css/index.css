@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   list-style: none;
+  text-decoration: none;
 }
 .test {
   height: 36px;
@@ -113,12 +114,12 @@ video {
   font-family: "Noto Sans KR", sans-serif !important;
 }
 
-/* 스크롤 테스트 */
+/* 이미지 스크롤 */
 
 /* 기본 구조 */
 .wrap {
-  max-width: 1410px;
-  margin: 20px 10px 100px 50px;
+  max-width: 1420px;
+  margin: 20px 10px 100px 47px;
   background: white;
 }
 
@@ -131,10 +132,11 @@ video {
 }
 .scroll--element {
   display: inline-block;
-  width: 1000px;
+  width: 475px;
   height: 150px;
-  padding: 0px 0px 200px 0px;
+  padding: 0px 0px 461px 0px;
 }
+
 .scroll--element + .scroll--element {
   margin-left: 15px;
 }
@@ -145,21 +147,94 @@ video {
 }
 ::-webkit-scrollbar-track {
   /* 스크롤이 움직이는 영역  */
-  background-color: white;
+  background-color: #f9f9f9;
 }
 ::-webkit-scrollbar-thumb {
   /*  스크롤  */
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: lightgrey;
   border-radius: 30px;
+}
+::-webkit-scrollbar-thumb:active {
+  background-color: gray;
 }
 ::-webkit-scrollbar-button:start:decrement,
 ::-webkit-scrollbar-button:end:increment {
   /*  스크롤의 화살표가 포함된 영역   */
+  width: 272px;
   display: block;
   height: 8px;
   background-color: white;
 }
-
 .scroll-image {
   width: 475px;
+}
+.scroll-image:hover {
+  filter: opacity(80%);
+  transition: 0.5s;
+}
+p {
+  font-family: "Noto Sans KR", sans-serif !important;
+  z-index: 1;
+}
+.force {
+  color: black;
+  position: relative;
+  font-size: 18px;
+  margin: 20px 0px 0px 0px;
+}
+.man {
+  color: gray;
+  position: relative;
+  font-size: 16px;
+  margin: 2px 0px 0px 0px;
+  line-height: 27px;
+}
+.price {
+  color: gray;
+  position: relative;
+  font-size: 16px;
+  margin: 2px 0px 0px 0px;
+}
+/* 이미지 스크롤 끝 */
+
+.txt-apparel {
+  padding: 0px 60px 13px 53px;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Noto Sans KR", sans-serif !important;
+}
+
+.left {
+  height: 470px;
+  padding: 0px 0px 13px 40px;
+}
+.center {
+  height: 470px;
+  padding: 0px 0px 13px 10px;
+}
+.right {
+  height: 470px;
+  padding: 0px 0px 13px 10px;
+}
+.div-seventh {
+  padding-bottom: 500px;
+}
+
+.jacket {
+  color: white;
+  position: absolute;
+  font-size: 20px;
+  padding: 410px 0px 0px 85px;
+}
+.hoody {
+  color: white;
+  position: absolute;
+  font-size: 20px;
+  padding: 410px 0px 0px 570px;
+}
+.pants {
+  color: white;
+  position: absolute;
+  font-size: 20px;
+  padding: 410px 0px 0px 1055px;
 }
