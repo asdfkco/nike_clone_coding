@@ -5,7 +5,6 @@ document.addEventListener('scroll', function () {
     var afterPosition = document.documentElement.scrollTop;
     if (afterPosition > 50) {
         if (beforePosition < afterPosition) {
-            // 스크롤 위로 
             document.getElementById("header_").style.transform = 'scaleY(0)' 
             document.getElementById("header_").style.top= '0'
             console.log("아래로간당")
@@ -23,7 +22,9 @@ document.addEventListener('scroll', function () {
     }
     if(scroll_top==true){
         document.getElementById("header_").style.top= '36px'
+        // document.getElementById("header_").style.position='static'
     }else{
         document.getElementById("header_").style.top= '0'
+        // document.getElementById("header_").style.position='fixed'
     }
 });
