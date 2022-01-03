@@ -22,9 +22,9 @@ document.addEventListener('scroll', function () {
     }
     if(scroll_top==true){
         document.getElementById("header_").style.top= '36px'
-        // document.getElementById("header_").style.position='static'
+        document.getElementById("header_").style.position='static'
     }else{
         document.getElementById("header_").style.top= '0'
-        // document.getElementById("header_").style.position='fixed'
+        document.getElementById("header_").style.position='fixed'
     }
 });
