@@ -192,6 +192,10 @@ header{
 .gather>.icon_sell>a:hover{
     background-color: #ccc;
 }
+/* 헤더끝 */
+/* 헤더끝 */
+/* 헤더끝 */
+/* 헤더끝 */
 section {
   width: 1410px;
 }
@@ -418,8 +422,14 @@ p {
   font-size: 20px;
   padding: 410px 0px 0px 1055px;
 }
+/* 푸터시작 */
+/* 푸터시작 */
+/* 푸터시작 */
+/* 푸터시작 */
+/* 푸터시작 */
+/* 푸터시작 */
 footer{
-  width: 100%;
+  width: 10%;
   height: 567px;
   background-color: black;
   color: white;
