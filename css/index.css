@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Oswald:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
 *{margin: 0;padding: 0;list-style: none;}
 a{text-decoration: none; color: inherit;}
 img{vertical-align: middle;}
@@ -289,4 +290,230 @@ footer{
     position: relative;
     left: 18px;
     top: 2px;
+}
+section {
+  width: 1410px;
+}
+/* 비디오 */
+video {
+  width: 1410px;
+  padding: 0 54px;
+}
+
+/* 사진 공통 사이즈*/
+.main_img {
+  padding: 0 54px;
+  width: 100%;
+}
+/*first*/
+.div-first {
+  text-align: center;
+  padding: 25px 54px 140px 50px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.txt-winter {
+  font-size: 42px;
+  font-weight: bold;
+}
+.txt-winter-styling {
+  font-size: 16px;
+  line-height: 35px;
+}
+/*second*/
+.div-second {
+  text-align: center;
+  padding: 25px 54px 160px 50px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.txt-jordan23 {
+  font-size: 42px;
+  font-weight: bold;
+  line-height: 70px;
+}
+.txt-member {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+/*third*/
+.div-third {
+  text-align: center;
+  padding: 25px 54px 160px 50px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.txt-air {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.txt-iconic {
+  font-size: 16px;
+  line-height: 35px;
+}
+
+/*fourth*/
+.div-fourth {
+  text-align: center;
+  padding: 25px 54px 160px 50px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.txt-pegasus {
+  font-size: 42px;
+  font-weight: bold;
+  line-height: 70px;
+}
+
+.txt-shield {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.txt-trending {
+  padding: 0 60px 13px 53px;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Noto Sans KR", sans-serif !important;
+}
+/* 두 개로 나눠지는 이미지 */
+.left-image {
+  height: 700px;
+  width: 700px;
+  padding: 0 0px 13px 53px;
+}
+.right-image {
+  height: 700px;
+  width: 700px;
+  padding: 0 0px 13px 10px;
+}
+
+.featured {
+  padding: 62px 60px 0px 53px;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Noto Sans KR", sans-serif !important;
+}
+
+/* 이미지 스크롤 */
+
+/* 기본 구조 */
+.wrap {
+  max-width: 1420px;
+  margin: 20px 10px 100px 47px;
+  background: white;
+}
+
+/* 가로 스크롤 적용 */
+.scroll__wrap {
+  overflow-y: hidden;
+  overflow-x: auto;
+  white-space: nowrap;
+  font-size: 0;
+}
+.scroll--element {
+  display: inline-block;
+  width: 475px;
+  height: 150px;
+  padding: 0px 0px 461px 0px;
+}
+
+.scroll--element + .scroll--element {
+  margin-left: 15px;
+}
+::-webkit-scrollbar {
+  /* 스크롤바 전체 영역 */
+  width: 10px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  /* 스크롤이 움직이는 영역  */
+  background-color: #f9f9f9;
+}
+::-webkit-scrollbar-thumb {
+  /*  스크롤  */
+  background-color: lightgrey;
+  border-radius: 30px;
+}
+::-webkit-scrollbar-thumb:active {
+  background-color: gray;
+}
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment {
+  /*  스크롤의 화살표가 포함된 영역   */
+  width: 272px;
+  display: block;
+  height: 8px;
+  background-color: white;
+}
+.scroll-image {
+  width: 475px;
+}
+.scroll-image:hover {
+  filter: opacity(80%);
+  transition: 0.5s;
+}
+p {
+  font-family: "Noto Sans KR", sans-serif !important;
+  z-index: 1;
+}
+.force {
+  color: black;
+  position: relative;
+  font-size: 18px;
+  margin: 20px 0px 0px 0px;
+}
+.man {
+  color: gray;
+  position: relative;
+  font-size: 16px;
+  margin: 2px 0px 0px 0px;
+  line-height: 27px;
+}
+.price {
+  color: gray;
+  position: relative;
+  font-size: 16px;
+  margin: 2px 0px 0px 0px;
+}
+/* 이미지 스크롤 끝 */
+
+.txt-apparel {
+  padding: 0px 60px 13px 53px;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Noto Sans KR", sans-serif !important;
+}
+
+.left {
+  height: 470px;
+  padding: 0px 0px 13px 40px;
+}
+.center {
+  height: 470px;
+  padding: 0px 0px 13px 10px;
+}
+.right {
+  height: 470px;
+  padding: 0px 0px 13px 10px;
+}
+.div-seventh {
+  padding-bottom: 500px;
+}
+
+.jacket {
+  color: white;
+  position: absolute;
+  font-size: 20px;
+  padding: 410px 0px 0px 85px;
+}
+.hoody {
+  color: white;
+  position: absolute;
+  font-size: 20px;
+  padding: 410px 0px 0px 570px;
+}
+.pants {
+  color: white;
+  position: absolute;
+  font-size: 20px;
+  padding: 410px 0px 0px 1055px;
 }
