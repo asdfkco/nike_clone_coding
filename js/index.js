@@ -1,5 +1,12 @@
 var beforePosition = document.documentElement.scrollTop
 var scroll_top
+var search = document.getElementById("search_head")
+function close() {
+    search.style.display ="none"
+}
+function open(){
+    search.style.display = "block"
+}
 document.addEventListener('scroll', function () {
     var scrolltop = document.documentElement.scrollTop
     var afterPosition = document.documentElement.scrollTop;
