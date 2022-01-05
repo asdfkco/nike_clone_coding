@@ -39,8 +39,8 @@ body{
     padding: 5px 11px;
   }
   header{
-    position: fixed;
-    /* position: static; */
+    /* position: fixed; */
+    position: static;
     height: 60px;
     width: 100%;
     background-color: white;
@@ -50,6 +50,7 @@ body{
     z-index: 2;
     transform-origin: top;
     transition: .05s;
+    z-index: 999;
   }
   .logo img{
     /* height: 60px; */
@@ -58,88 +59,6 @@ body{
     width: 70px;
     padding: 13px 42px;
   } 
-  .search_click{
-    height: 360px;
-    width: 100%;
-    z-index: 200;
-
-  }
-  .search_click>.search_head{
-    height: 60px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-  }
-  .search_click>div>.search_input_midden{
-    padding: 8px 48px;
-  }
-  .search_input_midden>input{
-    position: relative;
-    right: 95px;
-    padding: 8px 48px;
-    border-radius: 50px;
-    height: 40px;
-    width: 656px;
-    font-size: 17px;
-    color: #ccc;
-    line-height: 10px;
-    border: none;
-    background-color: rgb(244, 244, 244);
-  }
-  .search_input_midden>input:hover{
-    background-color: rgb(231, 231, 231);
-  }
-  .search_nike_img>img{
-    width: 70px;
-    padding: 13px 42px;
-  }
-  .search_input_midden>a>img:hover{
-    background-color: rgb(231, 231, 231);
-  }
-  .search_input_midden>a>img{
-    position: relative;
-    width: 27px;
-    z-index: 210;
-    top: 0px;
-    right:45px;
-    border-radius: 70px;
-    padding: 8px 8px;
-  }
-  .search_close>a>img{
-    position: relative;
-    top: 8px;
-    right: 30px;
-    width: 14px;
-    padding: 13px;
-    border-radius:70px ;
-    background-color: rgb(231, 231, 231);
-  }
-  .search_>.search_menu{
-    display: flex;
-    justify-content: center;
-  }
-  .search_menu>ul{
-    width: 656px;
-    height: 220px;
-  }
-  .search_menu>ul>a{
-    position: relative;
-    bottom: 10px;
-    color: rgb(110, 110, 110);
-  }
-  .search_menu>ul>li{
-    padding: 1px 0 12px 0;
-    font-size: 20px;
-  }
-  .search_close>a>img{
-    opacity: 0.6;
-  }
-  .search_close>a>img:hover{
-    opacity: 1;
-  }
-  .search_menu>ul{
-    padding: 46px 32px 0 32px ; 
-  }
   .logo>a>img:hover{
     opacity: 0.5;
   }
@@ -229,7 +148,6 @@ body{
 .gather input{
     position: absolute;
     right: 145px;
-    top: 10px;
     border-radius:67px;
     border: none;
     width: 180px;
@@ -247,7 +165,6 @@ body{
 .gather .search_icon{
     position: absolute;
     right: 280px;
-    top: 10px;
     z-index: 99;
 }
 .gather{
@@ -261,8 +178,8 @@ body{
     width: 23px;
 }
 .gather>.icon_sell{
-    position: relative;
-    right: -40px;
+    /* position: relative; */
+    padding : 0 0 0 40px;
 }
 .gather>.icon_sell>a{
     border-radius: 70px;
@@ -274,19 +191,165 @@ body{
 .gather>.icon_sell>a:hover{
     background-color: #ccc;
 }
+.search_click{
+  height: 360px;
+  width: 100%;
+  z-index: 200;
+  display: none;
+  transition: .2s;
+  background-color: white;
+  top: 0;
+  position: fixed;
+}
+.search_click>.search_head{
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.search_click>div>.search_input_midden{
+  padding: 8px 48px;
+}
+.search_input_midden>input{
+  position: relative;
+  right: 95px;
+  padding: 8px 48px;
+  border-radius: 50px;
+  height: 40px;
+  width: 656px;
+  font-size: 17px;
+  color: #ccc;
+  line-height: 10px;
+  border: none;
+  background-color: rgb(244, 244, 244);
+}
+.search_input_midden>input:hover{
+  background-color: rgb(231, 231, 231);
+}
+.search_nike_img>img{
+  width: 70px;
+  padding: 13px 42px;
+}
+.search_input_midden>a>img:hover{
+  background-color: rgb(231, 231, 231);
+}
+.search_input_midden>a>img{
+  position: relative;
+  width: 27px;
+  z-index: 210;
+  top: 0px;
+  right:45px;
+  border-radius: 70px;
+  padding: 8px 8px;
+}
+.search_close>a>img{
+  position: relative;
+  top: 8px;
+  right: 30px;
+  width: 14px;
+  padding: 13px;
+  border-radius:70px ;
+  background-color: rgb(231, 231, 231);
+}
+.search_>.search_menu{
+  display: flex;
+  justify-content: center;
+}
+.search_menu>ul{
+  width: 656px;
+  height: 220px;
+}
+.search_menu>ul>a{
+  position: relative;
+  bottom: 10px;
+  color: rgb(110, 110, 110);
+}
+.search_menu>ul>li{
+  padding: 1px 0 12px 0;
+  font-size: 20px;
+}
+.search_close>a>img{
+  opacity: 0.6;
+}
+.search_close>a>img:hover{
+  opacity: 1;
+}
+.search_menu>ul{
+  padding: 46px 32px 0 32px ; 
+}
+.banner{
+  width: 100%;
+  height: 64px;
+  background-color: rgb(245, 245, 245);
+}
+.banner>div{
+  top: -15px;
+  position: relative;
+  height: 44px;
+  /* padding: 10px 0 0 0; */
+  display: flex;
+  justify-content: center;
+}
+.banner>div>.days{
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+}
+.days{
+  position: relative;
+  left: 8%;
+}
+.days>strong{
+  display: inline-block; 
+  vertical-align: middle;
+  font-size:16px;
+  font-weight:600;
+  letter-spacing:-0.9px;
+}
+.see{
+  letter-spacing:-0.9px;
+  position: relative;
+  left: 38%;
+  top: 9%;
+  text-decoration:underline;
+}
+.see>a{
+  font-size: 11px;
+  font-family: bold;
+}
+.x:after{
+   display: inline-block;
+   content: "\00d7"; 
+   font-size:15pt;
+}
+.banner>button{
+  position: relative;
+  left: 98.5%;
+  border: none;
+  width: 20px;
+  z-index: 1;
+  background-color: inherit;
+}
+.midden_div{
+  height: 100%;
+  width: 300px;
+}
+.days>img{
+  width: 20px;
+}
 section {
   width: 1410px;
 }
 /* 비디오 */
 video {
-  width: 1410px;
-  padding: 0 54px;
+  width: 93vw;
+    padding: 0 3vw;
 }
 
 /* 사진 공통 사이즈*/
 .main_img {
-  padding: 0 54px;
-  width: 100%;
+  width: 93vw;
+    padding: 0 3vw;
 }
 /*first*/
 .div-first {
@@ -595,7 +658,7 @@ footer{
 .locate>div>span>.content_prot{
   padding: 20px 0 0 0;
 }
-.content_prot>img{
+.content_prot>a>img{
   position: relative;
   left: 18px;
   top: 2px;
