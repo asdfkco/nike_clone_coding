@@ -16,10 +16,7 @@ img {
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.section {
-  /* display: flex; */
-  /* justify-items: center; */
-}
+
 .brand {
   height: 36px;
   position: relative;
@@ -213,7 +210,8 @@ header {
   justify-content: center;
 }
 section {
-  width: 1410px;
+  width: 93vw;
+  padding: 0 3.5vmax;
 }
 /* 비디오 */
 video {
@@ -224,7 +222,6 @@ video {
 /* 사진 공통 사이즈*/
 .main_img {
   width: 93vw;
-  padding: 0 3.5vmax;
 }
 /*first*/
 .div-first {
@@ -295,18 +292,34 @@ video {
   font-weight: 600;
   font-family: "Noto Sans KR", sans-serif !important;
 }
-/* 두 개로 나눠지는 이미지 */
+/* fifth */
+
 .left-image {
-  height: 700px;
-  width: 700px;
+  width: 46vw;
+  height: 46vw;
   padding: 0 0px 13px 53px;
 }
 .right-image {
-  height: 700px;
-  width: 700px;
+  width: 46vw;
+  height: 46vw;
   padding: 0 0px 13px 10px;
 }
+.jordanX {
+  color: white;
+  position: absolute;
+  font-size: 20px;
+  padding: 37vw 0vw 0vw 6vw;
+  font-family: "Noto Sans KR", sans-serif !important;
+}
+.blazer {
+  color: white;
+  position: absolute;
+  font-size: 20px;
+  padding: 37vw 0vw 0vw 54vw;
+  font-family: "Noto Sans KR", sans-serif !important;
+}
 
+/* sixth */
 .featured {
   padding: 62px 60px 0px 53px;
   font-size: 22px;
@@ -319,12 +332,13 @@ video {
 /* 기본 구조 */
 .wrap {
   max-width: 1420px;
-  margin: 20px 10px 100px 47px;
+  margin: 20px 10px 100px 57px;
   background: white;
 }
 
 /* 가로 스크롤 적용 */
 .scroll__wrap {
+  width: 92vw;
   overflow-y: hidden;
   overflow-x: auto;
   white-space: nowrap;
@@ -397,23 +411,26 @@ p {
 }
 /* 이미지 스크롤 끝 */
 
+/* seventh */
 .txt-apparel {
-  padding: 0px 60px 13px 53px;
+  padding: 0px 60px 13px 70px;
   font-size: 22px;
   font-weight: 600;
   font-family: "Noto Sans KR", sans-serif !important;
 }
-
+.div-seventh {
+  padding: 0vw 1.5vw 0vw;
+}
 .left {
-  height: 470px;
+  width: 30vw;
   padding: 0px 0px 13px 40px;
 }
 .center {
-  height: 470px;
+  width: 30vw;
   padding: 0px 0px 13px 10px;
 }
 .right {
-  height: 470px;
+  width: 30vw;
   padding: 0px 0px 13px 10px;
 }
 .div-seventh {
@@ -424,19 +441,19 @@ p {
   color: white;
   position: absolute;
   font-size: 20px;
-  padding: 410px 0px 0px 85px;
+  padding: 26.5vw 0vw 0vw 5.5vw;
 }
 .hoody {
   color: white;
   position: absolute;
   font-size: 20px;
-  padding: 410px 0px 0px 570px;
+  padding: 26.5vw 0vw 0vw 36.5vw;
 }
 .pants {
   color: white;
   position: absolute;
   font-size: 20px;
-  padding: 410px 0px 0px 1055px;
+  padding: 26.5vw 0vw 0vw 67vw;
 }
 footer {
   width: 100%;
