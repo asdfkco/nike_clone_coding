@@ -50,7 +50,7 @@ body{
     z-index: 2;
     transform-origin: top;
     transition: .05s;
-    z-index: 999;
+    /* z-index: 999; */
   }
   .logo img{
     /* height: 60px; */
@@ -75,7 +75,6 @@ body{
     display: flex;
     justify-content: center;
 }
-
 .menu>li:hover>.sub-menu{
     transform: scaleY(1);
 }

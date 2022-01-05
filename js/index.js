@@ -22,10 +22,8 @@ document.addEventListener('scroll', function () {
         scroll_top = false
     }
     if(scroll_top==true){
-        document.getElementById("header_").style.top= '36px'
-        document.getElementById("header_").style.position='static'
+        document.getElementById("header_").style.position='relative'
     }else{
-        document.getElementById("header_").style.top= '0'
         document.getElementById("header_").style.position='fixed'
     }
 });
