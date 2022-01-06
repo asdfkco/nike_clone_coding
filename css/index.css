@@ -294,6 +294,10 @@ video {
 }
 /* fifth */
 
+.div-fifth {
+  max-width: 100%;
+  height: auto;
+}
 .left-image {
   width: 46vw;
   height: 46vw;
