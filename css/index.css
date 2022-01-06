@@ -792,7 +792,7 @@ footer {
 .locate > div > span > .content_prot {
   padding: 20px 0 0 0;
 }
-.content_prot > img {
+.content_prot >a> img {
   position: relative;
   left: 18px;
   top: 2px;
