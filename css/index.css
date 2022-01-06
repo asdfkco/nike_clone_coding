@@ -281,7 +281,7 @@ header {
 }
 .gather > .icon_sell {
   position: relative;
-  /* right: 20px; */
+  right: 0;
 }
 .gather > .icon_sell > a {
   border-radius: 70px;
