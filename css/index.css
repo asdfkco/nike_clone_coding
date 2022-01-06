@@ -230,6 +230,7 @@ button {
   border-radius: 20px;
   transition: 0.3s;
   position: absolute;
+  font-family: "Noto Sans KR", sans-serif;
 }
 .buy-button {
   width: 7vw;
@@ -269,6 +270,14 @@ button:hover {
   line-height: 35px;
 }
 /*second*/
+.collection-button {
+  width: 11vw;
+  height: 2.6vw;
+  border: none;
+  left: 64vw;
+  top: 89vw;
+  transform: translate(-20vw, 30vw);
+}
 .div-second {
   text-align: center;
   padding: 25px 54px 160px 50px;
