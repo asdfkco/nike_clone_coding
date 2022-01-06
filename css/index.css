@@ -47,7 +47,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 2;
+    z-index: 999;
     transform-origin: top;
     transition: .05s;
     /* z-index: 999; */
@@ -82,9 +82,15 @@ body{
     opacity: 0;    
     position: relative;
     /* float: left; */
-    padding: 0 45px;
+    padding: 0 40px;
     text-align: left;
     right: 80px;
+}
+.releases{
+  right: -20px;
+}
+.kids{
+  right: 20px;
 }
 .menu>li:hover>.sub-menu>.sub{
     opacity:1;
@@ -194,8 +200,9 @@ body{
   height: 360px;
   width: 100%;
   z-index: 200;
-  display: none;
+  transform: scaleY(0);
   transition: .2s;
+  transform-origin: top;
   background-color: white;
   top: 0;
   position: fixed;

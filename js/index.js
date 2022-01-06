@@ -36,16 +36,16 @@ window.onload = function () {
 
 
     search_input.addEventListener('click', function () {
-        search_.style.display='block'
-        header_.style.display='none'
+        search_.style.transform='scaleY(1)'
+        header_.style.zIndex='100'
     });
     search_img.addEventListener('click', function () {
-        search_.style.display='block'
-        header_.style.display='none'
+        search_.style.transform='scaleY(1)'
+        header_.style.zIndex='100'
     });
     close_btu.addEventListener('click', function () {
-        search_.style.display='none'
-        header_.style.display='flex'
+        search_.style.transform='scaleY(0)'
+        header_.style.zIndex='999'
     });
 }
 function banner_close(){
