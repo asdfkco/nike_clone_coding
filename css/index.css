@@ -118,6 +118,7 @@ body{
     height: 100%;
     display: flex;
 }
+<<<<<<< HEAD
 .brand{
     height: 36px;
     position: relative;
@@ -207,6 +208,9 @@ body{
     opacity:1;
     transition: 1s;
 }
+=======
+
+>>>>>>> 7bf6f6267f3d31a18c1ff83dbdf33ba84876ba5b
 .search_div>img{
     position: absolute;
     width: 40px;
@@ -329,6 +333,7 @@ body{
 }
 .search_input_midden>a>img{
   position: relative;
+<<<<<<< HEAD
   /* float: left; */
   padding: 0 45px;
   text-align: left;
@@ -511,6 +516,8 @@ body{
 }
 .search_input_midden>a>img{
   position: relative;
+=======
+>>>>>>> 7bf6f6267f3d31a18c1ff83dbdf33ba84876ba5b
   width: 27px;
   z-index: 210;
   top: 0px;
@@ -839,8 +846,12 @@ p {
   font-size: 20px;
   padding: 410px 0px 0px 1055px;
 }
+<<<<<<< HEAD
 footer {
 
+=======
+footer{
+>>>>>>> 7bf6f6267f3d31a18c1ff83dbdf33ba84876ba5b
   width: 100%;
   height: 567px;
   background-color: black;
