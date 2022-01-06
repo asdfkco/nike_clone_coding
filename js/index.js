@@ -33,8 +33,6 @@ window.onload = function () {
     var search_input = document.getElementById('search_input')
     var search_img = document.getElementById('search_png')
     var close_btu = document.getElementById('close_btu')
-
-
     search_input.addEventListener('click', function () {
         search_.style.transform='scaleY(1)'
         header_.style.zIndex='100'
