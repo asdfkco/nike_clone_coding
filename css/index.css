@@ -355,20 +355,20 @@ body{
   justify-content: center;
 }
 section {
-  width: 93vw;
-  padding: 0 3.5vmax;
+  width: 0%;
+  padding: 0 3.5% 0 3.5%;
 }
 /* 비디오 */
 video {
   width: 93vw;
-  padding: 0 3.5vmax;
+  padding: 0 0 0 3.5%;
 }
 
 /* 사진 공통 사이즈*/
 .main_img {
   width: 93vw;
 }
-button {
+.btn{
   background: black;
   color: white;
   font-size: 16px;
@@ -376,26 +376,32 @@ button {
   transition: 0.3s;
   position: absolute;
 }
+.div-first_btn{
+  display: flex;
+  justify-content: center;
+  width: 1430px;
+  height: 50px;
+}
 .buy-button {
-  width: 7vw;
-  height: 2.5vw;
+  width: 110px;
+  height: 38px;
   border: none;
-  left: 59vw;
-  top: 25vw;
-  transform: translate(-20vw, 30vw);
+  position:relative ;
+  left: 5px;
+  top: 10px;
 }
 .styling-button {
-  width: 14vw;
-  height: 2.5vw;
+  width: 250px;
+  height: 38px;
   border: none;
-  left: 67vw;
-  top: 25vw;
-  transform: translate(-20vw, 30vw);
+  position: relative;
+  left: 15px;
+  top: 10px;
 }
-button:focus {
+.btn:focus {
   outline: 0;
 }
-button:hover {
+.btn:hover {
   background: rgba(0, 0, 0, 0.68);
   transition: 0.5s;
 }
@@ -467,6 +473,40 @@ button:hover {
   font-size: 22px;
   font-weight: 600;
   font-family: "Noto Sans KR", sans-serif !important;
+}
+.fifth_buy{
+  /* position: absolute; */
+  /* left: 100px; */
+  background-color: white;
+  border: none;
+  height: 40px;
+  width: 110px;
+  /* top: 200px; */
+  margin-top: 620px;
+  margin-left: 90px;
+  font-family: "Noto Sans KR", sans-serif !important;
+}
+.fifth_buy__{
+  /* position: absolute; */
+  /* left: 100px; */
+  background-color: white;
+  border: none;
+  height: 40px;
+  width: 110px;
+  /* top: 200px; */
+  margin-top: 620px;
+  margin-left: 830px;
+  font-family: "Noto Sans KR", sans-serif !important;
+}
+.fifth_buy__>span{
+  color: black;
+  font-size: 17px;
+  font-weight: 500;
+}
+.fifth_buy>span{
+  color: black;
+  font-size: 17px;
+  font-weight: 500;
 }
 /* fifth */
 
