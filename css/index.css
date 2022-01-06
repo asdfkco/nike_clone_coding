@@ -209,6 +209,10 @@ header {
   align-items: center;
   justify-content: center;
 }
+/* 헤더끝 */
+/* 헤더끝 */
+/* 헤더끝 */
+/* 헤더끝 */
 section {
   width: 93vw;
   padding: 0 3.5vmax;
@@ -459,8 +463,10 @@ p {
   font-size: 20px;
   padding: 26.5vw 0vw 0vw 67vw;
 }
+
 footer {
   width: 100%;
+
   height: 567px;
   background-color: black;
   color: white;
