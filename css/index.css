@@ -327,6 +327,10 @@ body{
    display: inline-block;
    content: "\00d7"; 
    font-size:15pt;
+   color: black;
+}
+.banner>button:hover{
+  background-color: inherit;
 }
 .banner>button{
   position: relative;
@@ -343,19 +347,57 @@ body{
 .days>img{
   width: 20px;
 }
+.main_section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 section {
-  width: 1410px;
+  width: 93vw;
+  padding: 0 3.5vmax;
 }
 /* 비디오 */
 video {
   width: 93vw;
-    padding: 0 3vw;
+  padding: 0 3.5vmax;
 }
 
 /* 사진 공통 사이즈*/
 .main_img {
   width: 93vw;
-    padding: 0 3vw;
+}
+button {
+  background: black;
+  color: white;
+  font-size: 16px;
+  border-radius: 20px;
+  transition: 0.3s;
+  position: absolute;
+}
+.buy-button {
+  width: 7vw;
+  height: 2.5vw;
+  border: none;
+  left: 59vw;
+  top: 25vw;
+  transform: translate(-20vw, 30vw);
+}
+.styling-button {
+  width: 14vw;
+  height: 2.5vw;
+  border: none;
+  left: 67vw;
+  top: 25vw;
+  transform: translate(-20vw, 30vw);
+}
+button:focus {
+  outline: 0;
+}
+button:hover {
+  background: rgba(0, 0, 0, 0.68);
+  transition: 0.5s;
 }
 /*first*/
 .div-first {
@@ -426,18 +468,38 @@ video {
   font-weight: 600;
   font-family: "Noto Sans KR", sans-serif !important;
 }
-/* 두 개로 나눠지는 이미지 */
+/* fifth */
+
+.div-fifth {
+  max-width: 100%;
+  height: auto;
+}
 .left-image {
-  height: 700px;
-  width: 700px;
+  width: 46vw;
+  height: 46vw;
   padding: 0 0px 13px 53px;
 }
 .right-image {
-  height: 700px;
-  width: 700px;
+  width: 46vw;
+  height: 46vw;
   padding: 0 0px 13px 10px;
 }
+.jordanX {
+  color: white;
+  position: absolute;
+  font-size: 20px;
+  padding: 37vw 0vw 0vw 6vw;
+  font-family: "Noto Sans KR", sans-serif !important;
+}
+.blazer {
+  color: white;
+  position: absolute;
+  font-size: 20px;
+  padding: 37vw 0vw 0vw 54vw;
+  font-family: "Noto Sans KR", sans-serif !important;
+}
 
+/* sixth */
 .featured {
   padding: 62px 60px 0px 53px;
   font-size: 22px;
@@ -450,12 +512,13 @@ video {
 /* 기본 구조 */
 .wrap {
   max-width: 1420px;
-  margin: 20px 10px 100px 47px;
+  margin: 20px 10px 100px 57px;
   background: white;
 }
 
 /* 가로 스크롤 적용 */
 .scroll__wrap {
+  width: 92vw;
   overflow-y: hidden;
   overflow-x: auto;
   white-space: nowrap;
@@ -528,23 +591,26 @@ p {
 }
 /* 이미지 스크롤 끝 */
 
+/* seventh */
 .txt-apparel {
-  padding: 0px 60px 13px 53px;
+  padding: 0px 60px 13px 70px;
   font-size: 22px;
   font-weight: 600;
   font-family: "Noto Sans KR", sans-serif !important;
 }
-
+.div-seventh {
+  padding: 0vw 1.5vw 0vw;
+}
 .left {
-  height: 470px;
+  width: 30vw;
   padding: 0px 0px 13px 40px;
 }
 .center {
-  height: 470px;
+  width: 30vw;
   padding: 0px 0px 13px 10px;
 }
 .right {
-  height: 470px;
+  width: 30vw;
   padding: 0px 0px 13px 10px;
 }
 .div-seventh {
@@ -555,19 +621,19 @@ p {
   color: white;
   position: absolute;
   font-size: 20px;
-  padding: 410px 0px 0px 85px;
+  padding: 26.5vw 0vw 0vw 5.5vw;
 }
 .hoody {
   color: white;
   position: absolute;
   font-size: 20px;
-  padding: 410px 0px 0px 570px;
+  padding: 26.5vw 0vw 0vw 36.5vw;
 }
 .pants {
   color: white;
   position: absolute;
   font-size: 20px;
-  padding: 410px 0px 0px 1055px;
+  padding: 26.5vw 0vw 0vw 67vw;
 }
 footer{
   width: 100%;
