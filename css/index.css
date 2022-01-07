@@ -360,6 +360,7 @@ height: 100vh;
 }
 .days > img {
   width: 20px;
+  background-color: rgb(245, 245, 245);
 }
 .main_section {
   display: flex;

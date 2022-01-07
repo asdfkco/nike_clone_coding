@@ -2,7 +2,6 @@ var beforePosition = document.documentElement.scrollTop
 var scroll_top
 var search_ = document.getElementById('search_head')
 document.addEventListener('scroll', function () {
-    var scrolltop = document.documentElement.scrollTop
     var afterPosition = document.documentElement.scrollTop;
     if (afterPosition > 50) {
         if (beforePosition < afterPosition) {
@@ -24,6 +23,7 @@ document.addEventListener('scroll', function () {
     }
     if (scroll_top == true) {
         document.getElementById("header_").style.position = 'relative'
+        document.getElementById("up_scroll").style.display = 'none'
     } else {
         document.getElementById("header_").style.position = 'fixed'
     }
