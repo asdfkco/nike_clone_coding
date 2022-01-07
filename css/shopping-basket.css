@@ -42,13 +42,11 @@ body {
   height: 23px;
 }
 .brand_gather > a > .brand_img {
-  /* position: relative; */
   width: 20px;
   height: 20px;
   padding: 5px 11px;
 }
 header {
-  /* position: fixed; */
   position: static;
   height: 60px;
   width: 100%;
@@ -59,11 +57,8 @@ header {
   z-index: 999;
   transform-origin: top;
   transition: 0.05s;
-  /* z-index: 999; */
 }
 .logo img {
-  /* height: 60px; */
-  /* position: relative; */
   z-index: 999;
   width: 70px;
   padding: 13px 42px;
