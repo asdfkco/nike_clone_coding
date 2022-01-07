@@ -412,6 +412,15 @@ hr {
   width: 87vw;
   margin: 10vw 5vw 0px;
 }
+.up-scroll {
+  position: fixed;
+  top: 83%;
+  right: 1.8%;
+  display: none;
+}
+.up-scroll > img {
+  width: 40px;
+}
 footer {
   width: 100%;
   height: 567px;
