@@ -121,6 +121,7 @@ header {
 .menu {
   height: 100%;
   display: flex;
+  z-index: 999;
 }
 
 .search_div > img {
@@ -344,6 +345,25 @@ header {
   z-index: 1;
   background-color: inherit;
 }
+.menu:hover~.back_op{
+  /* display: block; */
+  height: 100vh;
+  }
+  .back_op{
+    /* display: none; */
+    top: 110%;
+    position: absolute;
+    width: 100%;
+    height: 0;
+    background-color: rgba(104, 104, 104, 0.3);
+    /* opacity: 0.3; */
+    filter:blur(5px);
+    backdrop-filter: blur(5px);
+    z-index: 200;
+  }
+  ._search{
+    position: fixed;
+  }
 .midden_div {
   height: 100%;
   width: 300px;
@@ -367,7 +387,7 @@ header {
   text-align: center;
   font-size: 1.8vw;
   font-weight: bold;
-  padding: 2vw 0 0.4vw;
+  padding: 2vw 0 0.4vw 0;
 }
 .zero {
   font-family: "Noto Sans KR", sans-serif;
