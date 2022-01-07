@@ -34,19 +34,24 @@ window.onload = function () {
     var search_input = document.getElementById('search_input')
     var search_img = document.getElementById('search_png')
     var close_btu = document.getElementById('close_btu')
-
+    var back_up = document.getElementById('back_op_search')
 
     search_input.addEventListener('click', function () {
         search_.style.transform = 'scaleY(1)'
         header_.style.zIndex = '100'
+        back_up.style.height='100vh'
+        back_up.style.top='0'
     });
     search_img.addEventListener('click', function () {
         search_.style.transform = 'scaleY(1)'
         header_.style.zIndex = '100'
+        back_up.style.height='100vh'
+        back_up.style.top='0'
     });
     close_btu.addEventListener('click', function () {
         search_.style.transform = 'scaleY(0)'
         header_.style.zIndex = '999'
+        back_up.style.height='0'
     });
 }
 function banner_close() {

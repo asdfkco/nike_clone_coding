@@ -88,6 +88,10 @@ header {
 .menu > li:hover > .sub-menu {
   transform: scaleY(1);
 }
+.menu:hover~.back_op{
+/* display: block; */
+height: 100vh;
+}
 .sub {
   opacity: 0;
   position: relative;
@@ -126,6 +130,7 @@ header {
 .menu {
   height: 100%;
   display: flex;
+  z-index: 999;
 }
 
 .search_div > img {
@@ -310,7 +315,9 @@ header {
 }
 .days {
   position: relative;
-  left: 8%;
+  top: 10%;
+  left: 5%;
+  font-family: "Noto Sans KR", sans-serif;
 }
 .days > strong {
   display: inline-block;
@@ -360,6 +367,21 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+.back_op{
+  /* display: none; */
+  top: 110%;
+  position: absolute;
+  width: 100%;
+  height: 0;
+  background-color: rgba(104, 104, 104, 0.3);
+  /* opacity: 0.3; */
+  filter:blur(5px);
+  backdrop-filter: blur(5px);
+  z-index: 200;
+}
+._search{
+  position: fixed;
 }
 section {
   width: 0%;
